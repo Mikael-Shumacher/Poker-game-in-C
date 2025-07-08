@@ -8,6 +8,7 @@
 #include<stdio.h>
 
 
+//Função principal: 
 int main(){
 	printf("Poker feito em linguagem C\n");
 }
