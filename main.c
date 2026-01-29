@@ -6,6 +6,7 @@
 */
 //Bibliotecas:
 #include<stdio.h>
+#include <raylib.h>
 
 
 void init(){
@@ -17,8 +18,19 @@ void init(){
 }
 
 
-
 //Função principal: 
 int main(){
 	init();
+	InitWindow(400, 1000, "");
+	SetTargetFPS(60);
+	while (!WindowShouldClose()) {
+		// Processar logica do jogo
+
+		//Desenhar na tela
+		BeginDrawing();
+
+		// Encerrar os desenhos
+		EndDrawing();
+
+	}
 }
