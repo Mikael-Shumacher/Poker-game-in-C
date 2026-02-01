@@ -21,7 +21,7 @@ void init(){
 //Função principal: 
 int main(){
 	init();
-	InitWindow(400, 1000, "");
+	InitWindow(1080, 720, "Poker in C");
 	SetTargetFPS(60);
 	while (!WindowShouldClose()) {
 		// Processar logica do jogo
